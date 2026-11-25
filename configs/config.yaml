@@ -1,0 +1,33 @@
+# Graph Neural Networks for Fraud and Money-Laundering Detection
+# Semester 7 (Semester 1) Configuration — Up to (before) Semester 8 Subgraph Mining
+
+seed: 42
+
+elliptic:
+  raw_dir: "data/raw/elliptic"
+  demo_dir: "data/demo/elliptic"
+  processed_path: "data/processed/elliptic_graph.pt"
+  train_max_timestep: 34   # Timesteps 1..34 train, 35..49 test (temporal split)
+  local_feature_count: 94  # First 94 are local tx features; remaining 72 are aggregated
+
+ibm_aml:
+  raw_dir: "data/raw/ibm_aml"
+  demo_dir: "data/demo/ibm_aml"
+  processed_path: "data/processed/ibm_aml_graph.pt"
+  transactions_file: "HI-Small_Trans.csv"
+  patterns_file: "HI-Small_Patterns.txt"
+  train_ratio: 0.70        # Chronological split: earliest 70% train, latest 30% test
+  val_ratio: 0.10          # Optional validation slice from end of train window
+  window_hours: 24         # Time window size for exploratory subgraph visualization
+
+training:
+  epochs: 50
+  lr: 0.005
+  weight_decay: 0.0005
+  hidden_dim: 64
+  gat_heads: 4
+  dropout: 0.3
+  use_class_weights: true
+  use_oversampling: true
+  oversample_ratio: 0.15   # Target minority ratio during edge oversampling
+  batch_size: 1024

@@ -1,0 +1,83 @@
+[
+  {
+    "model": "LogisticRegression",
+    "features": "local_94",
+    "illicit_precision": 0.75,
+    "illicit_recall": 0.7273,
+    "illicit_f1": 0.7385,
+    "auc_pr": 0.8737,
+    "roc_auc": 0.9739
+  },
+  {
+    "model": "RandomForest",
+    "features": "local_94",
+    "illicit_precision": 1.0,
+    "illicit_recall": 0.0606,
+    "illicit_f1": 0.1143,
+    "auc_pr": 0.8652,
+    "roc_auc": 0.9625
+  },
+  {
+    "model": "LogisticRegression",
+    "features": "all_166",
+    "illicit_precision": 0.8438,
+    "illicit_recall": 0.8182,
+    "illicit_f1": 0.8308,
+    "auc_pr": 0.8615,
+    "roc_auc": 0.9536
+  },
+  {
+    "model": "RandomForest",
+    "features": "all_166",
+    "illicit_precision": 1.0,
+    "illicit_recall": 0.0303,
+    "illicit_f1": 0.0588,
+    "auc_pr": 0.897,
+    "roc_auc": 0.9734
+  },
+  {
+    "model": "GCN",
+    "features": "all_166",
+    "illicit_precision": 0.3913,
+    "illicit_recall": 0.8182,
+    "illicit_f1": 0.5294,
+    "auc_pr": 0.6606,
+    "roc_auc": 0.8777
+  },
+  {
+    "model": "GRAPHSAGE",
+    "features": "all_166",
+    "illicit_precision": 0.3537,
+    "illicit_recall": 0.8788,
+    "illicit_f1": 0.5043,
+    "auc_pr": 0.8439,
+    "roc_auc": 0.9346
+  },
+  {
+    "model": "GAT",
+    "features": "all_166",
+    "illicit_precision": 0.2857,
+    "illicit_recall": 0.8485,
+    "illicit_f1": 0.4275,
+    "auc_pr": 0.6779,
+    "roc_auc": 0.9101
+  },
+  {
+    "model": "HYBRID_GCN",
+    "features": "all_166",
+    "illicit_precision": 0.5957,
+    "illicit_recall": 0.8485,
+    "illicit_f1": 0.7,
+    "auc_pr": 0.8266,
+    "roc_auc": 0.9259
+  },
+  {
+    "model": "RandomForest",
+    "features": "raw_166+gcn_emb",
+    "illicit_precision": 0.6364,
+    "illicit_recall": 0.6364,
+    "illicit_f1": 0.6364,
+    "auc_pr": 0.6889,
+    "roc_auc": 0.8756
+  }
+]

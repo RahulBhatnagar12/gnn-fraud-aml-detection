@@ -1,0 +1,74 @@
+[
+  {
+    "model": "RandomForest",
+    "features": "node_structural+edge",
+    "illicit_precision": 0.9697,
+    "illicit_recall": 1.0,
+    "illicit_f1": 0.9846,
+    "auc_pr": 1.0,
+    "roc_auc": 1.0
+  },
+  {
+    "model": "RandomForest",
+    "features": "node_amount_stats+edge",
+    "illicit_precision": 0.9697,
+    "illicit_recall": 1.0,
+    "illicit_f1": 0.9846,
+    "auc_pr": 0.9981,
+    "roc_auc": 1.0
+  },
+  {
+    "model": "RandomForest",
+    "features": "node_burstiness+edge",
+    "illicit_precision": 0.9697,
+    "illicit_recall": 1.0,
+    "illicit_f1": 0.9846,
+    "auc_pr": 1.0,
+    "roc_auc": 1.0
+  },
+  {
+    "model": "LogisticRegression",
+    "features": "node_all+edge",
+    "illicit_precision": 0.9412,
+    "illicit_recall": 1.0,
+    "illicit_f1": 0.9697,
+    "auc_pr": 1.0,
+    "roc_auc": 1.0
+  },
+  {
+    "model": "RandomForest",
+    "features": "node_all+edge",
+    "illicit_precision": 0.9688,
+    "illicit_recall": 0.9688,
+    "illicit_f1": 0.9688,
+    "auc_pr": 0.9981,
+    "roc_auc": 1.0
+  },
+  {
+    "model": "GCN_Edge",
+    "features": "all_node+edge",
+    "illicit_precision": 1.0,
+    "illicit_recall": 1.0,
+    "illicit_f1": 1.0,
+    "auc_pr": 1.0,
+    "roc_auc": 1.0
+  },
+  {
+    "model": "GRAPHSAGE_Edge",
+    "features": "all_node+edge",
+    "illicit_precision": 0.9143,
+    "illicit_recall": 1.0,
+    "illicit_f1": 0.9552,
+    "auc_pr": 1.0,
+    "roc_auc": 1.0
+  },
+  {
+    "model": "GAT_Edge",
+    "features": "all_node+edge",
+    "illicit_precision": 1.0,
+    "illicit_recall": 0.8438,
+    "illicit_f1": 0.9153,
+    "auc_pr": 0.9895,
+    "roc_auc": 0.9998
+  }
+]

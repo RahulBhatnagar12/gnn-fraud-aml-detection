@@ -1,0 +1,22 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS
+.DS_Store
+
+# Raw / large datasets & processed tensors (do not push multi-GB CSVs or .pt files)
+data/raw/
+data/processed/
+data/demo/
+*.pt
+*.pth
+
+# Logs
+*.log

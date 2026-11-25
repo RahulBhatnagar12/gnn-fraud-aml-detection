@@ -1,0 +1,7 @@
+{
+  "initial_rows": 12125,
+  "duplicates_removed": 5,
+  "final_clean_rows": 12120,
+  "unique_accounts": 800,
+  "laundering_txs": 120
+}

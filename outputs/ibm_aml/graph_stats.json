@@ -1,0 +1,12 @@
+{
+  "num_accounts_nodes": 800,
+  "num_transaction_edges": 12120,
+  "node_feature_dim": 17,
+  "edge_feature_dim": 18,
+  "illicit_edges": 120,
+  "licit_edges": 12000,
+  "illicit_pct": 0.9901,
+  "train_edges": 8484,
+  "val_edges": 1212,
+  "test_edges": 2424
+}

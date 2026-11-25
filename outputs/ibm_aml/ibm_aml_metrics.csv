@@ -1,0 +1,9 @@
+model,features,illicit_precision,illicit_recall,illicit_f1,auc_pr,roc_auc
+RandomForest,node_structural+edge,0.9697,1.0,0.9846,1.0,1.0
+RandomForest,node_amount_stats+edge,0.9697,1.0,0.9846,0.9981,1.0
+RandomForest,node_burstiness+edge,0.9697,1.0,0.9846,1.0,1.0
+LogisticRegression,node_all+edge,0.9412,1.0,0.9697,1.0,1.0
+RandomForest,node_all+edge,0.9688,0.9688,0.9688,0.9981,1.0
+GCN_Edge,all_node+edge,1.0,1.0,1.0,1.0,1.0
+GRAPHSAGE_Edge,all_node+edge,0.9143,1.0,0.9552,1.0,1.0
+GAT_Edge,all_node+edge,1.0,0.8438,0.9153,0.9895,0.9998

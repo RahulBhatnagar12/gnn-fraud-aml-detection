@@ -1,0 +1,14 @@
+# Core Deep Learning & Graph
+torch>=2.0.0
+torch-geometric>=2.3.0
+
+# Scientific Computing & ML
+numpy>=1.23.0
+pandas>=2.0.0
+scikit-learn>=1.2.0
+
+# Graph Analysis & Visualization
+networkx>=3.0
+matplotlib>=3.7.0
+pyyaml>=6.0
+tqdm>=4.65.0

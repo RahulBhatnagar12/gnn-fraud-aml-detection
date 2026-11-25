@@ -1,0 +1,13 @@
+{
+  "num_nodes": 3500,
+  "num_edges": 5212,
+  "num_features": 166,
+  "num_timesteps": 49,
+  "illicit_nodes": 85,
+  "licit_nodes": 752,
+  "unknown_nodes": 2663,
+  "illicit_pct_total": 2.43,
+  "illicit_pct_labeled": 10.16,
+  "train_labeled_nodes": 559,
+  "test_labeled_nodes": 278
+}

@@ -1,0 +1,10 @@
+model,features,illicit_precision,illicit_recall,illicit_f1,auc_pr,roc_auc
+LogisticRegression,local_94,0.75,0.7273,0.7385,0.8737,0.9739
+RandomForest,local_94,1.0,0.0606,0.1143,0.8652,0.9625
+LogisticRegression,all_166,0.8438,0.8182,0.8308,0.8615,0.9536
+RandomForest,all_166,1.0,0.0303,0.0588,0.897,0.9734
+GCN,all_166,0.3913,0.8182,0.5294,0.6606,0.8777
+GRAPHSAGE,all_166,0.3537,0.8788,0.5043,0.8439,0.9346
+GAT,all_166,0.2857,0.8485,0.4275,0.6779,0.9101
+HYBRID_GCN,all_166,0.5957,0.8485,0.7,0.8266,0.9259
+RandomForest,raw_166+gcn_emb,0.6364,0.6364,0.6364,0.6889,0.8756
